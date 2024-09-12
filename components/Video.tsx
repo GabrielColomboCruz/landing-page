@@ -12,7 +12,7 @@ const Video = ({ width = "560", height = "315" }: VideoProps) => {
       <b>
         <h1 className="text-5xl mb-6">Planilha | Fluxo de Caixa</h1>
       </b>
-      {/* Added margin-bottom */}
+
       <iframe
         width={width}
         height={height}

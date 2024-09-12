@@ -18,7 +18,6 @@ export default function Home() {
           <Main />
         </div>
 
-        {/* Right column with 1/3 width */}
         <div className="flex flex-col space-y-4 w-2/5 ml-4">
           <div className="bg-teal-600 p-4  rounded-md">
             <Form />

@@ -3,22 +3,17 @@ import React from "react";
 const Form = () => {
   return (
     <div className="flex flex-col items-center ">
-      {/* Header and description */}
       <div className="text-center mb-4">
         <h1 className="text-xl font-bold mb-2">Receba a planilha por e-mail</h1>
         <p className="text-sm ">
           Preencha os seus <br /> dados para receber o material
         </p>
         <br />
-        <hr className=" border-t border-gray-300" />{" "}
-        {/* Thinner horizontal line */}
+        <hr className=" border-t border-gray-300" />
       </div>
 
-      {/* Form aligned to the left */}
       <div className="w-full max-w-md">
         <form className="flex flex-col space-y-2 text-sm">
-          {" "}
-          {/* Reduced spacing between form elements */}
           <label htmlFor="nome" className="font-medium">
             Nome*
           </label>
@@ -28,7 +23,6 @@ const Form = () => {
             placeholder="Digite seu nome"
             className="border border-gray-300 p-2 rounded-none w-full h-8 text-black"
           />{" "}
-          {/* Square input */}
           <label htmlFor="email" className="font-medium">
             E-mail*
           </label>
@@ -38,7 +32,6 @@ const Form = () => {
             placeholder="Digite seu e-mail"
             className="border border-gray-300 p-2 rounded-none w-full h-8 text-black"
           />{" "}
-          {/* Square input */}
           <label htmlFor="empresa" className="font-medium">
             Você possui empresa?*
           </label>
@@ -81,8 +74,7 @@ const Form = () => {
             className="bg-orange-500 text-white p-3 rounded-none hover:bg-orange-600 w-full h-16"
           >
             Receber o material
-          </button>{" "}
-          {/* Square button */}
+          </button>
         </form>
       </div>
     </div>
